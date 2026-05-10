@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS2 NEWS TRACKER | ТОП СНГ-КОМАНД</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+    <a href="../index/index.html" class="logo">
+	CS <span>NEWS TRACKER</span>
+	</a>
+        <nav>
+            <a href="">Матчи</a>
+            <a href="">Результаты</a>
+            <a href="">Новости</a>
+            <a href="" class="active">Трансляции</a>
+        </nav>
+        <div class="search-area">
+            <input type="text" placeholder="Поиск..." class="search-input">
+            <button class="search-btn">🔍</button>
+        </div>
+    </header>
+
+    <div class="main-layout-container">
+        <aside class="sidebar left-sidebar">
+            <section class="sidebar-matches-section">
+                <h3 class="panel-title">СЕГОДНЯШНИЕ МАТЧИ</h3>
+                <div class="tabs">
+                </div>
+                <div id="matches-container">
+                    <div id="tab-today" class="tab-content">
+                        <div class="match-card live">
+                            <span class="live-badge">LIVE</span>
+                            <div class="match-time-info">
+                                <div class="tournament-name">ESL Pro League Season 23</div>
+                            </div>
+                            <div class="teams">
+                                <div class="team team-a">
+                                    <img src="../img/Team/PV.png" class="team-icon-panel" alt="PARIVISION Logo">
+                                </div>
+                                <div class="score">10</div>
+                                <div class="vs-divider">VS</div>
+                                <div class="score">8</div>
+                                <div class="team team-b">
+                                    <img src="../img/Team/Falcons.png" class="team-icon-panel" alt="Falcons Logo">
+                                </div>
+                            </div>
+                            <a href="#" target="_blank" class="watch-link">СМОТРЕТЬ</a>
+                        </div>
+                        <div class="match-card upcoming">
+                            <span class="live-badge"></span>
+                            <div class="match-time-info">
+                                <div class="tournament-name">IZI WEX Season 1</div>
+                            </div>
+                            <div class="teams">
+                                <div class="team team-a">
+                                    <img src="../img/Team/WW.png" class="team-icon-panel" alt="WW Team Logo">
+                                </div>
+                                <div class="live-time">20:00</div>
+                                <div class="team team-b">
+                                    <img src="../img/Team/TDK.png" class="team-icon-panel" alt="TDK Logo">
+                                </div>
+                            </div>
+                            <a href="#" target="_blank" class="watch-link grey-link">Ожидается</a>
+                        </div>
+						                        <div class="match-card upcoming">
+                            <span class="live-badge"></span>
+                            <div class="match-time-info">
+                                <div class="tournament-name">PGL Astana 2026</div>
+                            </div>
+                            <div class="teams">
+                                <div class="team team-a">
+                                    <img src="../img/Team/HOTU.png" class="team-icon-panel" alt="HOTU Logo">
+                                </div>
+                                <div class="live-time">23:00</div>
+                                <div class="team team-b">
+                                    <img src="../img/Team/Aurora.png" class="team-icon-panel" alt="Aurora Logo">
+                                </div>
+                            </div>
+                            <a href="#" target="_blank" class="watch-link grey-link">Ожидается</a>
+                        </div>
+                    </div>
+                    <div id="tab-tomorrow" class="tab-content" style="display: none;">
+                         <a href="../index.html" class="full-link">Полное расписание →</a>
+                    </div>
+                </div>
+            </section>
+        </aside>
+
+        <main class="center-content">
+            <div class="page-header">
+                <h1>ТОП СНГ-КОМАНД</h1>
+                <p>Актуальный рейтинг команд СНГ по CS2</p>
+            </div>
+            <section class="ranking-list">
+                <div class="player-ranking-table-screenshot">
+                    <table style="width: 100%";>
+                        <thead>
+                            <tr>
+                                <th data-label=""></th>
+								<th data-label="Player">Team</th>
+                                <th data-label="Maps">Maps</th>
+                                <th data-label="K-D Diff">K-D Diff</th>
+                                <th data-label="K/D">K/D</th>
+                                <th data-label="Rating 3.0">Rating 3.0</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+							<tr>
+								<td class="rank" data-label="#">1</td>
+								<td class="player-name-cell" data-label="Team">
+									<img src="../img/Country/RU.png" class="flag-icon" alt="">
+									<span class="player-name">BET-M</span>
+								</td>
+								<td data-label="Maps">12</td>
+								<td class="positive-value" data-label="K-D Diff">+113</td>
+								<td data-label="K/D">1.12</td>
+								<td class="positive-value" data-label="Rating">1.14</td>
+							</tr>
+
+							<tr>
+								<td class="rank" data-label="#">2</td>
+								<td class="player-name-cell" data-label="Team">
+									<img src="../img/Country/RU.png" class="flag-icon" alt="">
+									<span class="player-name">BetBoom</span>
+								</td>
+								<td data-label="Maps">58</td>
+								<td class="positive-value" data-label="K-D Diff">+284</td>
+								<td data-label="K/D">1.07</td>
+								<td class="positive-value" data-label="Rating">1.08</td>
+							</tr>
+
+							<tr>
+								<td class="rank" data-label="#">3</td>
+								<td class="player-name-cell" data-label="Team">
+									<img src="../img/Country/RU.png" class="flag-icon" alt="">
+									<span class="player-name">Spirit</span>
+								</td>
+								<td data-label="Maps">33</td>
+								<td class="positive-value" data-label="K-D Diff">+151</td>
+								<td data-label="K/D">1.07</td>
+								<td class="positive-value" data-label="Rating">1.08</td>
+							</tr>
+
+							<tr>
+								<td class="rank" data-label="#">4</td>
+								<td class="player-name-cell" data-label="Team">
+									<img src="../img/Country/RU.png" class="flag-icon" alt="">
+									<span class="player-name">K27</span>
+								</td>
+								<td data-label="Maps">35</td>
+								<td class="positive-value" data-label="K-D Diff">+7</td>
+								<td data-label="K/D">1.00</td>
+								<td class="positive-value" data-label="Rating">1.06</td>
+							</tr>
+
+							<tr>
+								<td class="rank" data-label="#">5</td>
+								<td class="player-name-cell" data-label="Team">
+									<img src="../img/Country/RU.png" class="flag-icon" alt="">
+									<span class="player-name">Nuclear TigeRES</span>
+								</td>
+								<td data-label="Maps">18</td>
+								<td class="positive-value" data-label="K-D Diff">+16</td>
+								<td data-label="K/D">1.01</td>
+								<td class="positive-value" data-label="Rating">1.05</td>
+							</tr>
+
+							<tr>
+								<td class="rank" data-label="#">6</td>
+								<td class="player-name-cell" data-label="Team">
+									<img src="../img/Country/RU.png" class="flag-icon" alt="">
+									<span class="player-name">WHITEBIRD</span>
+								</td>
+								<td data-label="Maps">19</td>
+								<td class="positive-value" data-label="K-D Diff">+49</td>
+								<td data-label="K/D">1.03</td>
+								<td class="neytral-value" data-label="Rating">1.04</td>
+							</tr>
+
+							<tr>
+								<td class="rank" data-label="#">7</td>
+								<td class="player-name-cell" data-label="Team">
+									<img src="../img/Country/RU.png" class="flag-icon" alt="">
+									<span class="player-name">HOTU</span>
+								</td>
+								<td data-label="Maps">37</td>
+								<td class="negative-value" data-label="K-D Diff">-19</td>
+								<td data-label="K/D">0.99</td>
+								<td class="neytral-value" data-label="Rating">1.03</td>
+							</tr>
+
+							<tr>
+								<td class="rank" data-label="#">8</td>
+								<td class="player-name-cell" data-label="Team">
+									<img src="../img/Country/RU.png" class="flag-icon" alt="">
+									<span class="player-name">Nemesis</span>
+								</td>
+								<td data-label="Maps">40</td>
+								<td class="negative-value" data-label="K-D Diff">-66</td>
+								<td data-label="K/D">0.98</td>
+								<td class="neytral-value" data-label="Rating">1.03</td>
+							</tr>
+
+							<tr>
+								<td class="rank" data-label="#">9</td>
+								<td class="player-name-cell" data-label="Team">
+									<img src="../img/Country/ua.png" class="flag-icon" alt="">
+									<span class="player-name">B8</span>
+								</td>
+								<td data-label="Maps">54</td>
+								<td class="negative-value" data-label="K-D Diff">-149</td>
+								<td data-label="K/D">0.96</td>
+								<td class="neytral-value" data-label="Rating">1.00</td>
+							</tr>
+
+							<tr>
+								<td class="rank" data-label="#">10</td>
+								<td class="player-name-cell" data-label="Team">
+									<img src="../img/Country/ua.png" class="flag-icon" alt="">
+									<span class="player-name">Inner Circle</span>
+								</td>
+								<td data-label="Maps">42</td>
+								<td class="negative-value" data-label="K-D Diff">-84</td>
+								<td data-label="K/D">0.97</td>
+								<td class="neytral-value" data-label="Rating">1.00</td>
+							</tr>
+
+							<tr>
+								<td class="rank" data-label="#">11</td>
+								<td class="player-name-cell" data-label="Team">
+									<img src="../img/Country/ua.png" class="flag-icon" alt="">
+									<span class="player-name">fnatic</span>
+								</td>
+								<td data-label="Maps">41</td>
+								<td class="negative-value" data-label="K-D Diff">-197</td>
+								<td data-label="K/D">0.94</td>
+								<td class="neytral-value" data-label="Rating">0.99</td>
+							</tr>
+
+							<tr>
+								<td class="rank" data-label="#">12</td>
+								<td class="player-name-cell" data-label="Team">
+									<img src="../img/Country/RU.png" class="flag-icon" alt="">
+									<span class="player-name">PARIVISION</span>
+								</td>
+								<td data-label="Maps">60</td>
+								<td class="negative-value" data-label="K-D Diff">-239</td>
+								<td data-label="K/D">0.95</td>
+								<td class="positive-value" data-label="Rating">0.99</td>
+							</tr>
+
+							<tr>
+								<td class="rank" data-label="#">13</td>
+								<td class="player-name-cell" data-label="Team">
+									<img src="../img/Country/RU.png" class="flag-icon" alt="">
+									<span class="player-name">CYBERSHOKE</span>
+								</td>
+								<td data-label="Maps">12</td>
+								<td class="negative-value" data-label="K-D Diff">-147</td>
+								<td data-label="K/D">0.83</td>
+								<td class="negative-value" data-label="Rating">0.89</td>
+							</tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <aside class="sidebar right-sidebar">
+            <div class="stat-panel">
+                <h3 class="panel-title">ТОП ИГРОКОВ (HLTV)</h3>
+                <div class="panel-content">
+                    <div class="ranking-item player-item">
+                        <span class="rank">1.</span>
+                        <img src="../img/Players/donk.png" class="stat-icon player-icon" alt="Player Avatar">
+                        <span class="stat-name">donk</span>
+                        <span class="stat-value">Rating 1.33</span>
+                    </div>
+                    <div class="ranking-item player-item">
+                        <span class="rank">2.</span>
+                        <img src="../img/Players/executor.png" class="stat-icon player-icon" alt="Player Avatar">
+                        <span class="stat-name">executor</span>
+                        <span class="stat-value">Rating 1.33</span>
+                    </div>
+                     <div class="ranking-item player-item">
+                        <span class="rank">3.</span>
+                        <img src="../img/Players/Monesy.png" class="stat-icon player-icon" alt="Player Avatar">
+                        <span class="stat-name">m0NESY</span>
+                        <span class="stat-value">Rating 1.32</span>
+                    </div>
+                    <a href="../player-ranking/player-ranking.html" class="full-link">Полный рейтинг игроков →</a>
+                </div>
+            </div>
+            </div>
+        </aside>
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">CS2 NEWS TRACKER</div>
+            <div class="footer-links">
+                <a href="https://t.me/cs3news">Контакты (Telegram)</a>
+                <a href="#">FAQ</a>
+                <a href="#">Правовая информация</a>
+            </div>
+        </div>
+        <p class="copyright">2026 CS2 NEWS TRACKER. Только СНГ-контент.</p>
+    </footer>
+</body>
+</html>
